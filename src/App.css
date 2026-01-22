@@ -167,7 +167,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  padding: 2rem 2rem 8rem 2rem;
   position: relative;
   overflow: visible;
   background: linear-gradient(135deg, rgba(139, 92, 246, 0.8) 0%, rgba(192, 132, 250, 0.8) 100%);
@@ -284,7 +284,7 @@ body {
 }
 
 .scroll-indicator {
-  position: absolute;
+  position: fixed;
   bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
